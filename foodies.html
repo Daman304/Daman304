@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodies</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="https://images.unsplash.com/photo-1485808778931-481bff461fa9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGNvbXBhbnl8ZW58MHx8MHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" type="image/png">
+  <meta name="google-site-verification" content="QeMyF8yYWcwTywiVttbDMVvMJdJtva4VKI6RJfhdS-A">
+  <style>
+    :root {
+      --navbar-height: 59px:
+    }
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    div img {
+      display: block;
+      height: 3.5rem;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+    #navbar {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    .list {
+      display: flex;
+      list-style: none;
+      padding: 5px 20px;
+      margin: 4px 25px;
+      border: 2px solid black;
+      background-color: black;
+      border-radius: 8px;
+      align-items: center;
+      text-align: center;
+      position: sticky;
+    }
+    .list a {
+      display: block;
+      margin: 4px 25px;
+      padding: 5px 20px;
+      color: rgb(173, 20, 20);
+      background-color: black;
+      border-radius: 10px;
+      position: sticky;
+    }
+    .list a:hover {
+      background-color: white;
+      cursor: pointer;
+    }
+    body nav::before {
+      content: "";
+      position: absolute;
+      background: url('https://cdn.pixabay.com/photo/2015/03/26/09/39/cupcakes-690040__340.jpg') no-repeat center center/cover;
+      height: 38rem;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.7;
+    }
+    #sec {
+      text-align: center;
+      border: 4px solid red;
+    }
+    #heading1 {
+      display: block;
+      margin: auto;
+      padding: 5rem;
+      font-size: 3rem;
+      font-family: 'Potta One', cursive;
+      color: rgb(16, 212, 65);
+      text-decoration: underline;
+    }
+    .head {
+      align-items: center;
+      text-align: center;
+      margin: 5px 20px;
+      display: flex;
+      padding: 30px;
+      font-size: 2rem;
+      font-family: cursive;
+      color: rgb(206, 7, 100);
+    }
+    body {
+      height: 100%;
+      overflow-wrap: break-word;
+    }
+    .btn {
+      border: 2px solid greenyellow;
+      size: 5rem;
+      margin: 10px;
+      padding: 7px;
+      border-radius: 18px;
+      width: 133px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background-color: lawngreen;
+      font-style: italic;
+      font-weight: bold;
+    }
+    #services {
+      text-align: center;
+      font-size: 3rem;
+      font-family: 'Potta One', cursive;
+      ;
+      color: cadetblue;
+      text-decoration: underline;
+      display: flex;
+      flex-direction: column;
+    }
+    #serve .box-1 {
+      margin: 20px 30px;
+      display: flex;
+      margin: auto;
+      border: 2px solid royalblue;
+      height: 199px;
+      width: 500px;
+      flex-direction: column;
+      border-radius: 15px;
+      background-color: thistle;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'Potta One', cursive;
+    }
+    #serve .box-1 img {
+      height: 70px;
+      margin-top: 30px;
+      display: block;
+    }
+    #serve .box-2 {
+      margin: 20px 30px;
+      display: flex;
+      margin: auto;
+      border: 2px solid royalblue;
+      height: 199px;
+      width: 500px;
+      flex-direction: column;
+      border-radius: 15px;
+      background-color: thistle;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'Potta One', cursive;
+    }
+    #serve .box-2 img {
+      height: 70px;
+      margin-top: 30px;
+      display: block;
+    }
+    #serve .box-3 {
+      margin: 20px 30px;
+      display: flex;
+      margin: auto;
+      border: 2px solid royalblue;
+      height: 199px;
+      width: 500px;
+      flex-direction: column;
+      border-radius: 15px;
+      background-color: thistle;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'Potta One', cursive;
+    }
+    #serve .box-3 img {
+      height: 70px;
+      margin-top: 30px;
+      display: block;
+    }
+    #serve .box-4 {
+      margin: 20px 30px;
+      display: flex;
+      margin: auto;
+      border: 2px solid royalblue;
+      height: 199px;
+      width: 500px;
+      flex-direction: column;
+      border-radius: 15px;
+      background-color: thistle;
+      align-items: center;
+      cursor: pointer;
+      font-family: 'Potta One', cursive;
+    }
+    #serve .box-4 img {
+      height: 70px;
+      margin-top: 30px;
+      display: block;
+    }
+    #clients {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 0.3rem solid brown;
+      border-width: 0.2rem;
+      height: 26rem;
+    }
+    #Our {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      color: darkorchid;
+      font-size: 3rem;
+      font-family: 'Potta One', cursive;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .container {
+      display: flex;
+      margin: 5rem;
+    }
+    .class-1 img {
+      margin: 2rem;
+      height: 12rem;
+      width: 12rem;
+    }
+    .class-2 img {
+      margin: 2rem;
+      height: 12rem;
+      width: 12rem;
+    }
+    .class-3 img {
+      margin: 2rem;
+      height: 12rem;
+      width: 12rem;
+    }
+    .class-4 img {
+      margin: 2rem;
+      height: 12rem;
+      width: 12rem;
+    }
+    body #clients::before {
+      content: "";
+      position: absolute;
+      background: url('https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706__340.jpg') no-repeat center center/cover;
+      height: 420px;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.7;
+    }
+    #form {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      border: 2px solid goldenrod;
+      border-width: 0.3rem;
+    }
+    .head2 {
+      margin: 2rem;
+      font-size: 3rem;
+      color: rgb(3, 107, 38);
+      font-family: 'Potta One', cursive;
+      text-decoration: underline;
+    }
+    #myname {
+      margin: 0.42rem;
+      border: 2px solid orange;
+      border-radius: 20px;
+      width: 32rem;
+      height: 2rem;
+      text-align: center;
+    }
+    #myphone {
+      margin: 0.42rem;
+      border: 2px solid rgb(0, 255, 157);
+      border-radius: 20px;
+      width: 32rem;
+      height: 2rem;
+      text-align: center;
+    }
+    #myemail {
+      margin: 0.42rem;
+      border: 2px solid rgb(195, 0, 255);
+      border-radius: 20px;
+      width: 32rem;
+      height: 2rem;
+      text-align: center;
+    }
+    #mydate {
+      margin: 0.42rem;
+      border: 2px solid rgb(255, 0, 0);
+      border-radius: 20px;
+      width: 32rem;
+      height: 2rem;
+      text-align: center;
+    }
+    #Submit {
+      margin: 0.23rem;
+      border: 2px solid rgb(0, 68, 255);
+      border-radius: 20px;
+      width: 9rem;
+      height: 2rem;
+      text-align: center;
+    }
+    #Submit:hover {
+      background-color: plum;
+      font-family: 'Potta One', cursive;
+      font-weight: bold;
+    }
+    .foot {
+      text-align: center;
+      border: 2px solid black;
+      color: white;
+      background-color: black;
+      border-radius: 4px;
+      border-width: 0.82rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .foot:hover {
+      color: coral;
+      font-weight: bold;
+      font-style: 'Potta One', cursive;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body id="body">
+  <nav id="navbar">
+    <div id="logo">
+      <img src="https://images.unsplash.com/photo-1485808778931-481bff461fa9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZCUyMGNvbXBhbnl8ZW58MHx8MHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="logo">
+    </div>
+    <ul class="list">
+      <li class="item-1"><a href="#sec">Home</a></li>
+      <li class="item-2"><a href="#about us">Our Services</a></li>
+      <li class="item-3"><a href="#clients">Our clients</a></li>
+      <li class="item-4"><a href="#form">Contact Us</a></li>
+    </ul>
+  </nav>
+  <section id="sec">
+    <h1 id="heading1">Welcome to the Foodies World</h1>
+    <p class="head">Food is what people and animals eat to live. Food usually comes from animals and plants. It is eaten by living things to provide energy and nutrition. Food contains the nutrition that people and animals need to be healthy.</p>
+    <button class="btn"><a href='https://swiggy.com' alt='Broken Link'>Order Now</a></button>
+  </section>
+  <hr>
+  <section id="about us">
+    <h1 id="services">Our Services</h1>
+    <div id="serve">
+      <div class="box-1">
+        <img src="https://cdn.pixabay.com/photo/2016/04/09/09/22/pizza-1317699__340.jpg" alt=""> We deliver the best food in all the regions of India. The food is very delicious and its presentation is also very nice
+      </div>
+      <div class="box-2">
+        <img src="https://cdn.pixabay.com/photo/2016/05/30/14/10/delivery-guy-1424808__340.png" alt=""> The fastest delivery in the world. We deliver the food under 60 minutes. If the food is not delivered under 60 minutes the food will be totally free.
+      </div>
+      <div class="box-3">
+        <img src="https://media.istockphoto.com/photos/smiling-young-delivery-man-in-medical-mask-holding-and-carrying-a-picture-id1215691495?b=1&amp;k=6&amp;m=1215691495&amp;s=170667a&amp;w=0&amp;h=j5QoKmT2rw6xRcbMg4nK428hVlL9kuYnH6bH3zKgPp4=" alt=""> All the safety precautions are taken by our food company. Regular temperature checking of our delivery persons and the hot food is at your doorstep.
+      </div>
+      <div class="box-4">
+        <img src="https://cdn.pixabay.com/photo/2019/11/06/07/15/home-4605394__340.png" alt=""> The food is delivered very fastly and without coming in contact with our customers. Our delivery persons have the world's fastest delivery award. We hope you will like our service.
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section id="clients">
+    <h1 id="Our">Our Clients</h1>
+    <div class="container">
+      <div class="class-1">
+        <img src="https://cdn.pixabay.com/photo/2017/10/09/19/03/logo-2834458__340.jpg" alt="HP">
+      </div>
+      <div class="class-2">
+        <img src="https://media.istockphoto.com/photos/apple-macintosh-logo-picture-id459230181?b=1&amp;k=6&amp;m=459230181&amp;s=170667a&amp;w=0&amp;h=1m6-RJt4Xz9UKbGt1fbut8BERWs52Z0Ptj8i_Elsas8=" alt="Apple">
+      </div>
+      <div class="class-3">
+        <img src="https://cdn.pixabay.com/photo/2016/10/23/06/04/google-1762248__340.png" alt="Google">
+      </div>
+      <div class="class-4">
+        <img src="https://cdn.pixabay.com/photo/2019/04/23/15/26/fedex-4149787__340.png" alt="fedex">
+      </div>
+    </div>
+  </section>
+  <section id="form" style="background:url(https://cdn.pixabay.com/photo/2017/12/29/16/34/fruit-3048001__340.jpg)no-repeat center center/cover">
+    <div class="formaction">
+      <form action="">
+        <div id="name">
+          <label for="name">Name:</label>
+          <div>
+            <input type="text" name="myname" id="myname" placeholder="Enter Your Name">
+          </div>
+        </div>
+        <div id="phone number">
+          <label for="phone number">Phone Number:</label>
+          <div>
+            <input type="number" name="mynumber" id="myphone" placeholder="Enter Your Number">
+          </div>
+        </div>
+        <div id="email">
+          <label for="email">Email:</label>
+          <div>
+            <input type="email" name="myemail" id="myemail" placeholder="Enter Your Email">
+          </div>
+        </div>
+        <div id="date">
+          <label for="date of birth">Date of Birth:</label>
+          <div>
+            <input type="date" name="mydate" id="mydate" placeholder="Enter Your Date of Birth">
+          </div>
+        </div>
+      </form>
+      </div>
+      <input type="submit" value="Submit Now" id="Submit">
+      </section>
+  <footer class="foot">Thanks For Ordering Food from Our Website</footer>
+  <script src="C:\Users\user\Desktop\bootstrap-5.0.1-dist\js\bootstrap.bundle"></script>
+</body>
+</html>

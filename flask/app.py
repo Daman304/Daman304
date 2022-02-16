@@ -12,7 +12,7 @@ app.config.update(
     MAIL_USE_TLS = False,
     MAIL_USE_SSL = True,
     MAIL_USERNAME = 'damanpreetsingh1979@gmail.com',
-    MAIL_PASSWORD = 'daman20062010'
+    MAIL_PASSWORD = '*******'
 )
 mail = Mail(app)
 class Form(db.Model):

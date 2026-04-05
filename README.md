@@ -9,8 +9,7 @@ Welcome to my GitHub! I'm a first-year B.Tech CSE undergrad vibing at Thapar Uni
   
 ### 🎯 Current Goals
 * Mastering modern Android Dev with Kotlin.
-* Grinding DSA in Java to secure those future Ws.
-* **Side quest:** Hustling hard to secure the bag and cop a sick new laptop by mid-second year. 💻💸
+* Grinding DSA in Java to secure those future Wins
 
 ### 📫 Let's Connect!
 * **Email:** [damanpreetsingh1979@gmail.com](mailto:damanpreetsingh1979@gmail.com)

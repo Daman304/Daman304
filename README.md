@@ -1,4 +1,4 @@
-# Yo, I'm Daman! 👋
+# Hi I'm Daman! 👋
 
 Welcome to my GitHub! I'm a first-year B.Tech CSE undergrad vibing at Thapar University. I spend most of my time drinking coffee, debugging, and building cool stuff for Android. Currently on the grind to level up my DSA and eventually dip my toes into the AI/ML world. 🚀
 

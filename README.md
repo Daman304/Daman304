@@ -1,15 +1,15 @@
 # Hi I'm Daman! 👋
 
-Welcome to my GitHub! I'm a first-year B.Tech CSE undergrad vibing at Thapar University. I spend most of my time drinking coffee, debugging, and building cool stuff for Android. Currently on the grind to level up my DSA and eventually dip my toes into the AI/ML world. 🚀
+Welcome to my GitHub! I'm a second-year B.Tech CSE undergrad at Thapar University. I spend most of my time drinking coffee, debugging, and building cool stuff. Currently trying to level up my DSA and eventually dive deeper into the AI/ML world. 🚀
 
 ### 🛠️ Tech Stack & Tools
-* **Languages:** Java (My main squeeze for DSA & Android), Kotlin, C
+* **Languages:** Java, Kotlin, C
 * **Domains:** Android App Development, Data Structures & Algorithms
 * **Exploring:** Artificial Intelligence & Machine Learning 🤖
   
 ### 🎯 Current Goals
 * Mastering modern Android Dev with Kotlin.
-* Grinding DSA in Java to secure those future Wins
+* Grinding DSA in Java
 
 ### 📫 Let's Connect!
 * **Email:** [damanpreetsingh1979@gmail.com](mailto:damanpreetsingh1979@gmail.com)

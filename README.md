@@ -14,7 +14,7 @@ Welcome to my GitHub! I'm a second-year B.Tech CSE undergrad at Thapar Universit
 ### 📫 Let's Connect!
 * **Email:** [damanpreetsingh1979@gmail.com](mailto:damanpreetsingh1979@gmail.com)
 * **LinkedIn:** www.linkedin.com/in/damanpreet-singh-takkar-01b06a250
-* **Portfolio:** https://portfolio2-0-7xeu.onrender.com/
+* **Portfolio:** https://dps-exe.netlify.app/
 
 <!---
 Daman304/Daman304 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

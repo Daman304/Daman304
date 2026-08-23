@@ -5,7 +5,6 @@ Welcome to my GitHub! I'm a second-year B.Tech CSE undergrad at Thapar Universit
 ### 🛠️ Tech Stack & Tools
 * **Languages:** Java, Kotlin, C
 * **Domains:** Android App Development, Data Structures & Algorithms
-* **Exploring:** Artificial Intelligence & Machine Learning 🤖
   
 ### 🎯 Current Goals
 * Mastering modern Android Dev with Kotlin.
